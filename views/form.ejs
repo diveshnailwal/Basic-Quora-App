@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add a New Post</title>
+</head>
+<body>
+    <h1>Add a New Post</h1>
+    <form action="/posts" method="POST"> 
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+        <br><br>
+        
+        <label for="content">Post:</label> 
+        <textarea id="content" name="content" required></textarea> 
+        <br><br>
+        
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
